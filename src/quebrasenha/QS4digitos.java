@@ -1,14 +1,18 @@
 package quebrasenha;
 
 import com.twmacinta.util.MD5;
-import java.awt.Toolkit;
+
+import java.awt.*;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-//import java.security.MessageDigest;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+/**
+ * Created by christian on 08/11/16.
+ */
 //import java.util.concurrent.atomic.AtomicInteger;
 
 public class QS4digitos implements Runnable {
@@ -22,17 +26,18 @@ public class QS4digitos implements Runnable {
     }
 
     public void run() {
-        String[] hashs = {"60bb1f9914c26fb929b724398e5d2f66",
-            "4998654b7d255461cd5110d5dcbac05b",
-            "6af5f30627d3823099c2541d0b9326fc"
+        String[] hashs = {
+                "60bb1f9914c26fb929b724398e5d2f66",
+                "4998654b7d255461cd5110d5dcbac05b",
+                "6af5f30627d3823099c2541d0b9326fc"
         };
         char[] tudo = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
-            'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y',
-            'w', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
-            'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'Y',
-            'W', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!',
-            '@', '#', '$', '%', '&', '*', '(', ')', '_', '-', '+', '=', '[',
-            ']', '{', '}', '?', '/', '|', '<', '>', '.', '\\'};
+                'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y',
+                'w', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
+                'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'Y',
+                'W', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!',
+                '@', '#', '$', '%', '&', '*', '(', ')', '_', '-', '+', '=', '[',
+                ']', '{', '}', '?', '/', '|', '<', '>', '.', '\\'};
         char hash4[] = {'0', '0', '0', '0'};
         long tempoInicial = System.currentTimeMillis();
         for (int i = inicial; i < (fim); i++) {
@@ -44,7 +49,7 @@ public class QS4digitos implements Runnable {
                     hash4[2] = tudo[k];
                     for (int l = 0; l < tudo.length; l++) {
                         hash4[3] = tudo[l];
-                        //String palavra = "" + tudo[i] + tudo[j] + tudo[k] + tudo[l];
+                        String palavra = "" + tudo[i] + tudo[j] + tudo[k] + tudo[l];
 
                         for (int q = 0; q < hashs.length; q++) {
                             MD5 md5 = new MD5();
@@ -52,7 +57,7 @@ public class QS4digitos implements Runnable {
                             if ((md5.asHex()).equals(hashs[q])) {
                                 BufferedWriter bw = null;
                                 try {
-                                    bw = new BufferedWriter(new FileWriter(new File("D:/hashs4.txt"), true));
+                                    bw = new BufferedWriter(new FileWriter(new File("hashs4.txt"), true));
                                     bw.write("Quebrou ");
                                     bw.write(" Senha: " + String.valueOf(hash4));
                                     bw.write(" Hash: " + hashs[q]);
@@ -79,4 +84,6 @@ public class QS4digitos implements Runnable {
         }
     }
 }
+
+
 
