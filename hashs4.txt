@@ -10,21 +10,23 @@ Quebrou  Senha: UniX Hash: 0a76d8749da8f67c37b6a3678d45ce9a Tempo de Execução 
 Quebrou  Senha: 82.l Hash: 6af5f30627d3823099c2541d0b9326fc Tempo de Execução 1222 ok
 Quebrou  Senha: 8765 Hash: f38fef4c0e4988792723c29a0bd3ca98 Tempo de Execução 1237 ok
 Quebrou  Senha: 9844 Hash: e68d3c6431bf1e25eced5d26c301f68d Tempo de Execução 1531 ok
-Quebrou  Senha: H@0b Hash: 01499346f9267b51e35095365aed4f15 Tempo de Execução 1570
-Quebrou  Senha: !@#$ Hash: 3a4d92a1200aad406ac50377c7d863aa Tempo de Execução 1825
-Quebrou  Senha: hgvk Hash: ff434d71061293390990711649b9dfd9 Tempo de Execução 1922
-Quebrou  Senha: JaV@ Hash: 9b82b6de580184657e6d95c4cfb2f337 Tempo de Execução 1931
-Quebrou  Senha: @k@k Hash: 8343f6af1f2313770bea1954bbf3b3c6 Tempo de Execução 1933
-Quebrou  Senha: #12M Hash: 813c9e77c864c7cfc8b2ad9472c1dde6 Tempo de Execução 2352
-Quebrou  Senha: K0nG Hash: f916e6a2ef1e57ca076f399823874f96 Tempo de Execução 2390
-Quebrou  Senha: $c03 Hash: a4ab812db5e84ec4280a2067a0e009a8 Tempo de Execução 2465
-Quebrou  Senha: $*L0 Hash: a9cec9eeae78b260c010bc84b79a2330 Tempo de Execução 2678
-Quebrou  Senha: 1234 Hash: 81dc9bdb52d04dc20036dbd8313ed055 Tempo de Execução 3227
-Quebrou  Senha: mmmm Hash: 9de37a0627c25684fdd519ca84073e34 Tempo de Execução 3329
-Quebrou  Senha: AdeS Hash: 2b8160cf839671250fc0dabac7cc1d4e Tempo de Execução 3331
-Quebrou  Senha: m@th Hash: 5c55036d0b9dadec219f65c9d8d420c1 Tempo de Execução 3492
-Quebrou  Senha: 28@L Hash: 4998654b7d255461cd5110d5dcbac05b Tempo de Execução 3529
-Quebrou  Senha: A(*6 Hash: 864a77ce17937bf629637a939b69da64 Tempo de Execução 3548
-Quebrou  Senha: PoNg Hash: 9cda986cec137d423863c2f9fca7c543 Tempo de Execução 3667
-Quebrou  Senha: n@@b Hash: 3c2effe3f1157e5038b1dd0687d15957 Tempo de Execução 3771
-Quebrou  Senha: P@ss Hash: 60bb1f9914c26fb929b724398e5d2f66 Tempo de Execução 3826
+Quebrou  Senha: H@0b Hash: 01499346f9267b51e35095365aed4f15 Tempo de Execução 1570 ok
+Quebrou  Senha: !@#$ Hash: 3a4d92a1200aad406ac50377c7d863aa Tempo de Execução 1825 ok
+Quebrou  Senha: hgvk Hash: ff434d71061293390990711649b9dfd9 Tempo de Execução 1922 ok
+Quebrou  Senha: JaV@ Hash: 9b82b6de580184657e6d95c4cfb2f337 Tempo de Execução 1931 ok
+Quebrou  Senha: @k@k Hash: 8343f6af1f2313770bea1954bbf3b3c6 Tempo de Execução 1933 ok
+Quebrou  Senha: #12M Hash: 813c9e77c864c7cfc8b2ad9472c1dde6 Tempo de Execução 2352 ok
+Quebrou  Senha: K0nG Hash: f916e6a2ef1e57ca076f399823874f96 Tempo de Execução 2390 ok
+Quebrou  Senha: $c03 Hash: a4ab812db5e84ec4280a2067a0e009a8 Tempo de Execução 2465 ok
+Quebrou  Senha: $*L0 Hash: a9cec9eeae78b260c010bc84b79a2330 Tempo de Execução 2678 ok
+Quebrou  Senha: 1234 Hash: 81dc9bdb52d04dc20036dbd8313ed055 Tempo de Execução 3227 ok
+Quebrou  Senha: mmmm Hash: 9de37a0627c25684fdd519ca84073e34 Tempo de Execução 3329 ok
+Quebrou  Senha: AdeS Hash: 2b8160cf839671250fc0dabac7cc1d4e Tempo de Execução 3331 ok
+Quebrou  Senha: m@th Hash: 5c55036d0b9dadec219f65c9d8d420c1 Tempo de Execução 3492 ok
+Quebrou  Senha: 28@L Hash: 4998654b7d255461cd5110d5dcbac05b Tempo de Execução 3529 ok
+Quebrou  Senha: A(*6 Hash: 864a77ce17937bf629637a939b69da64 Tempo de Execução 3548 ok
+Quebrou  Senha: PoNg Hash: 9cda986cec137d423863c2f9fca7c543 Tempo de Execução 3667 ok
+Quebrou  Senha: n@@b Hash: 3c2effe3f1157e5038b1dd0687d15957 Tempo de Execução 3771 ok
+Quebrou  Senha: P@ss Hash: 60bb1f9914c26fb929b724398e5d2f66 Tempo de Execução 3826 ok
+
+"Ok" por que foi conferido e passado para a planilha!!!
